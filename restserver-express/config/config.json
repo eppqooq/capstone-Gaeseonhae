@@ -1,0 +1,26 @@
+{
+  "development": { // 개발 모드
+      "username": "jeta", // DB 사용자명
+      "password": "P@ssw0rd", // DB 암호
+      "database": "seq_development", // 사용할 DB
+      "host": "127.0.0.1", // DB 주소
+      "dialect": "mysql", // DBMS
+      "operatorsAliases": false // 연산자 별칭
+  },
+  "test": { // 테스트 모드
+      "username": "jeta",
+      "password": "P@ssw0rd",
+      "database": "seq_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "operatorsAliases": false
+  },
+  "production": { // 운용 모드
+      "username": "jeta",
+      "password": "P@ssw0rd",
+      "database": "seq_production",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "operatorsAliases": false
+  }
+}
